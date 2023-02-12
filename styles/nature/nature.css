@@ -1,0 +1,57 @@
+.nature {
+  display: flex;
+  background: #6889A5;
+}
+
+.nature__container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nature__text-container {
+  width: 376px;
+  margin-top: 63px;
+}
+
+.nature__text {
+  line-height: 30px;
+}
+
+.nature__subtitle {
+  margin: 0 0 18px 0;
+}
+
+.nature__title {
+  margin: 0 0 30px 0;
+}
+
+.nature__img {
+  width: 50%;
+}
+
+.nature__block {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+}
+
+.red {
+  top: 0;
+  left: 0;
+  background-color: red;
+  z-index: 1;
+}
+
+.blue {
+  top: 50px;
+  left: 25px;
+  background-color: blue;
+}
+
+.green {
+  top: 100px;
+  left: 50px;
+  background-color: green;
+  z-index: 2;
+}/*# sourceMappingURL=nature.css.map */

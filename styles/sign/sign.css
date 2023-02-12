@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.sign {
+  padding-bottom: 100px;
+  background: #EBECDC;
+}
+.sign__text-container {
+  display: flex;
+  flex-direction: column;
+  /* ставит котейнер по центру */
+  margin: 0 auto;
+  width: 688px;
+}
+.sign__text {
+  margin-top: 64px;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D1E1E;
+}
+.sign__button {
+  margin-top: 50px;
+  color: #000;
+}
+.sign__img {
+  display: none;
+}
+.sign__checkbox {
+  margin-top: 19px;
+}
+.sign__checkbox-text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height, or 126% */
+  text-transform: uppercase;
+  color: #2D1E1E;
+  cursor: pointer;
+}/*# sourceMappingURL=sign.css.map */

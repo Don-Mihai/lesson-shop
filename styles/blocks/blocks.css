@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  padding: 8px 12px;
+  align-self: flex-end;
+  background: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.15s;
+}
+.button:hover {
+  border: 2px solid #2D1E1E;
+}
+.button:active {
+  border: 2px solid #8d8383;
+  color: 8d8383;
+}/*# sourceMappingURL=blocks.css.map */

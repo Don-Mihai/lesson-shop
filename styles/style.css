@@ -1,0 +1,384 @@
+@charset "UTF-8";
+.button {
+  display: flex;
+  padding: 8px 12px;
+  align-self: flex-end;
+  background: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.15s;
+}
+.button:hover {
+  border: 2px solid #2D1E1E;
+}
+.button:active {
+  border: 2px solid #8d8383;
+  color: 8d8383;
+}
+
+.nature {
+  display: flex;
+  background: #6889A5;
+}
+
+.nature__container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nature__text-container {
+  width: 376px;
+  margin-top: 63px;
+}
+
+.nature__text {
+  line-height: 30px;
+}
+
+.nature__subtitle {
+  margin: 0 0 18px 0;
+}
+
+.nature__title {
+  margin: 0 0 30px 0;
+}
+
+.nature__img {
+  width: 50%;
+}
+
+.nature__block {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+}
+
+.red {
+  top: 0;
+  left: 0;
+  background-color: red;
+  z-index: 1;
+}
+
+.blue {
+  top: 50px;
+  left: 25px;
+  background-color: blue;
+}
+
+.green {
+  top: 100px;
+  left: 50px;
+  background-color: green;
+  z-index: 2;
+}
+
+.best__title {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 115px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2D1E1E;
+}
+.best__products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.best__product {
+  position: relative;
+  width: 280px;
+}
+.best__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16px;
+  height: 190px;
+}
+.best__text-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D1E1E;
+}
+.best__text-made {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #2D1E1E;
+}
+.best__items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 6px;
+  list-style: none;
+}
+.best__item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D1E1E;
+}
+.best__sale {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.sign {
+  padding-bottom: 100px;
+  background: #EBECDC;
+}
+.sign__text-container {
+  display: flex;
+  flex-direction: column;
+  /* ставит котейнер по центру */
+  margin: 0 auto;
+  width: 688px;
+}
+.sign__text {
+  margin-top: 64px;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D1E1E;
+}
+.sign__button {
+  margin-top: 50px;
+  color: #000;
+}
+.sign__img {
+  display: none;
+}
+.sign__checkbox {
+  margin-top: 19px;
+}
+.sign__checkbox-text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height, or 126% */
+  text-transform: uppercase;
+  color: #2D1E1E;
+  cursor: pointer;
+}
+
+/* обращение к тэгу */
+body {
+  /* обнуление отступа по умолчанию */
+  margin: 0;
+  /* название шрифтов */
+  font-family: "Roboto", sans-serif;
+  /* вес шрифта (жирность) */
+  font-weight: 400;
+  color: #fff;
+  /* не менят размеры контейнеров при задавании padding */
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  /* отступы между элементами по горизонтали */
+  justify-content: space-around;
+  /* выравнивание по вертикали */
+  align-items: center;
+  height: 60px;
+  /* цвет фона */
+  background-color: #6889A5;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.1);
+}
+.header__title {
+  /* размер шрифта */
+  font-size: 32px;
+  /* цвет текста */
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  /* вставляет отступ между элементами */
+  gap: 16px;
+}
+
+/* обращение по классу */
+.nav__link {
+  /* преобразует буквы в большой регистр */
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* -----------choise-------------- */
+.choise {
+  display: flex;
+}
+
+.choise__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 798px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #EBECDC;
+}
+
+.chois__women {
+  background-image: url(../images/women.png);
+}
+
+.choise__men {
+  background-image: url(../images/men.png);
+}
+
+.nature__button {
+  color: #fff;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center; /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition: 0.3s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transition: 0.3s;
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  transition: 0.3s;
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  transition: 0.3s;
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+@media (max-width: 991.98px) {
+  .header__title {
+    /* размер шрифта */
+    font-size: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hamburger-menu {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .header {
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+    height: auto;
+  }
+  .header__title {
+    margin: 0;
+  }
+  .header__img {
+    height: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+@import '../variables';
+
+.sign {
+    padding-bottom: 100px;
+    background: #EBECDC;
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        /* ставит котейнер по центру */
+        margin: 0  auto;
+        width: 688px;
+    }
+    
+    &__text {
+        margin-top: 64px;
+        font-size: 13px;
+        line-height: 17px;
+    
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #2D1E1E;
+    }
+
+    &__button {
+        margin-top: 50px;
+        color: #000;
+    }
+
+    &__img {
+        display: none;
+    }
+
+
+
+    &__checkbox {
+        margin-top: 19px;
+    }
+
+    &__checkbox-text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        /* identical to box height, or 126% */
+
+        text-transform: uppercase;
+
+        color: #2D1E1E;
+        cursor: pointer;
+    }
+}

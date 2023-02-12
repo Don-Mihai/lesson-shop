@@ -1,0 +1,75 @@
+@import '../variables';
+@import 'media.scss';
+
+.best {
+
+    &__title {
+        margin-bottom: $margin-bottom;
+        margin-top: $margin-top;
+        margin-left: 115px;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2D1E1E;
+    }
+
+    &__products {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    &__product {
+        position: relative;
+        width: 280px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 16px;
+        height: 190px;
+    }
+    
+    &__text-top {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px; 
+        color: #2D1E1E;
+    }
+    
+    &__text-made {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #2D1E1E;
+    }
+    
+    &__items {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 6px;
+        list-style: none;
+    }
+    
+    &__item {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+    
+        text-align: center;
+        text-transform: uppercase;
+        color: #2D1E1E;
+    }
+
+    &__sale {
+        position: absolute;
+        top:-15px;
+        right: -15px;
+    }
+}
