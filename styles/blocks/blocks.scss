@@ -9,8 +9,17 @@
     border: 2px solid transparent;
     transition: 0.15s;
 
+    &__img {
+        opacity: 0;
+        transition: 0.15s;
+    }
+
     &:hover {
         border: 2px solid #2D1E1E;
+    }
+
+    &:hover .button__img {
+        opacity: 1;
     }
 
     &:active {
