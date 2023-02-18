@@ -8,8 +8,15 @@
   border: 2px solid transparent;
   transition: 0.15s;
 }
+.button__img {
+  opacity: 0;
+  transition: 0.15s;
+}
 .button:hover {
   border: 2px solid #2D1E1E;
+}
+.button:hover .button__img {
+  opacity: 1;
 }
 .button:active {
   border: 2px solid #8d8383;
