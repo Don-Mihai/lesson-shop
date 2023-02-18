@@ -203,6 +203,7 @@ body {
   font-size: 32px;
   /* цвет текста */
   color: #000;
+  cursor: default;
 }
 
 .nav {
