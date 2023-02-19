@@ -227,6 +227,9 @@ body {
   text-decoration: none;
   color: #000;
 }
+.nav__link--active {
+  color: #fff;
+}
 
 /* -----------choise-------------- */
 .choise {

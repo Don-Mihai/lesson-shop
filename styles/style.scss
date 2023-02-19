@@ -55,6 +55,10 @@ body {
     font-size: 13px;
     text-decoration: none;
     color: $color-text-primary;
+
+    &--active {
+      color: #fff;
+    }
 }
 
 
