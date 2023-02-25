@@ -8,11 +8,6 @@ let isWakeUp = true;
 
 isWakeUp = false
 
-
-
-
-
-
 if(isWakeUp) {
     // true
     console.log('Я иду на работу')
