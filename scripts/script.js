@@ -8,13 +8,13 @@
 
 
 
-let user = {
-    name: 'Mihail',
-    isMale: true,
-    age: 23,
-}
+// let user = {
+//     name: 'Mihail',
+//     isMale: true,
+//     age: 23,
+// }
 
 
-console.log(user)
+// console.log(user)
 
-document.querySelector('.output').innerHTML = user
+// document.querySelector('.output').innerHTML = user

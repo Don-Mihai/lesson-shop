@@ -1,23 +1,23 @@
-function goOut() {
-    console.log('Выходите с сайта!')
-    console.log('Не возвращайтесь обратно!')
+// function goOut() {
+//     console.log('Выходите с сайта!')
+//     console.log('Не возвращайтесь обратно!')
 
-}
+// }
 
-let age = prompt('Введите возраст:', '')
+// let age = prompt('Введите возраст:', '')
 
 
-while(!age.length) {
-    prompt('Введите возраст:')
-}
+// while(!age.length) {
+//     prompt('Введите возраст:')
+// }
 
-if(+age < 18) {
-    goOut('Вам меньше 18 лет')
-}
+// if(+age < 18) {
+//     goOut('Вам меньше 18 лет')
+// }
 
-if(+age > 100) {
-    goOut('Вам больше 100 лет')
-}
+// if(+age > 100) {
+//     goOut('Вам больше 100 лет')
+// }
 
 
 
@@ -30,11 +30,22 @@ if(+age > 100) {
 // createDoc('Владимир Владимирович', '12.11.2025')
 
 
-// function getProcent () {
-//     let variable =  prompt('Введите число для преобразования')
+// function calcProcent (number) {
+//     let result = `${number/100}%`
 
-//     console.log(`${variable/100}%`)
+//     if(+number < 100) {return 'Число меньше ста'}
+
+//     console.log('Еще действие')
+
+//     return result
+
 // }
+
+// let variable =  prompt('Введите число для преобразования')
+
+// let result = calcProcent(variable)
+
+// alert(result)
 
 
 
@@ -57,3 +68,6 @@ if(+age > 100) {
 // }
 
 // work()
+
+
+
