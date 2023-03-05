@@ -1,21 +1,18 @@
-// const sum = (...rest) => {
-//     let counter = 0;
 
-//     for(let i = 0; i < rest.length; ++i) {
-//         counter = counter + rest[i]
-//         console.log(counter)
-//     }
+const sum = (...rest) => {
+    let counter = 0;
 
-//     return counter
-// }
+    // Цикл, увеличивает каунтер
+    for (let i = 0; i < rest.length; ++i) {
+        counter = counter + rest[i];
+    }
 
+    return counter;
+};
 
-// const result = sum(5, 10, 5, 10, 40)
+const result = sum(3.6);
 
-// console.log('результат:', result)
-
-
-
+console.log('результат:', result);
 
 // const sayInfo = (name, age, ...rest) => {
 //     alert(`Ваше имя: ${name}`)
@@ -27,6 +24,3 @@
 // }
 
 // console.log(sayInfo())
-
-
-let sum = a => a;
