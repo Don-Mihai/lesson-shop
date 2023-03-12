@@ -4,13 +4,13 @@
 //     console.log(`Приветствую ${this.name}`)
 // }
 
-const user = {
-    name: 'Mihai',
-    age: 23,
-    birthDate: '19.11.1999',
-    yees: 'brown',
-    // languages: ['ru', 'en']
-};
+// const user = {
+//     name: 'Mihai',
+//     age: 23,
+//     birthDate: '19.11.1999',
+//     yees: 'brown',
+//     // languages: ['ru', 'en']
+// };
 
 
 
@@ -21,7 +21,7 @@ const user = {
 // }
 
 
-console.log(user.languages?.length)
+// console.log(user.languages?.length)
 
 
 
